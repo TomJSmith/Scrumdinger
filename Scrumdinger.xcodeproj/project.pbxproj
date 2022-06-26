@@ -14,6 +14,10 @@
 		E2D83E442867D974001BF5B4 /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D83E432867D974001BF5B4 /* ScrumdingerTests.swift */; };
 		E2D83E4E2867D974001BF5B4 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D83E4D2867D974001BF5B4 /* ScrumdingerUITests.swift */; };
 		E2D83E502867D974001BF5B4 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D83E4F2867D974001BF5B4 /* ScrumdingerUITestsLaunchTests.swift */; };
+		E2D83E5E2867F7C6001BF5B4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D83E5D2867F7C6001BF5B4 /* Theme.swift */; };
+		E2D83E602867F980001BF5B4 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D83E5F2867F980001BF5B4 /* DailyScrum.swift */; };
+		E2D83E622867FAC5001BF5B4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D83E612867FAC5001BF5B4 /* CardView.swift */; };
+		E2D83E642868C34A001BF5B4 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D83E632868C34A001BF5B4 /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		E2D83E492867D974001BF5B4 /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D83E4D2867D974001BF5B4 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		E2D83E4F2867D974001BF5B4 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2D83E5D2867F7C6001BF5B4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		E2D83E5F2867F980001BF5B4 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		E2D83E612867FAC5001BF5B4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E2D83E632868C34A001BF5B4 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,13 @@
 		E2D83E312867D971001BF5B4 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				E2D83E5C2867F7AF001BF5B4 /* Models */,
 				E2D83E322867D971001BF5B4 /* ScrumdingerApp.swift */,
 				E2D83E342867D971001BF5B4 /* MeetingView.swift */,
 				E2D83E362867D974001BF5B4 /* Assets.xcassets */,
 				E2D83E382867D974001BF5B4 /* Preview Content */,
+				E2D83E612867FAC5001BF5B4 /* CardView.swift */,
+				E2D83E632868C34A001BF5B4 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -125,6 +136,15 @@
 				E2D83E4F2867D974001BF5B4 /* ScrumdingerUITestsLaunchTests.swift */,
 			);
 			path = ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		E2D83E5C2867F7AF001BF5B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2D83E5D2867F7C6001BF5B4 /* Theme.swift */,
+				E2D83E5F2867F980001BF5B4 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D83E602867F980001BF5B4 /* DailyScrum.swift in Sources */,
+				E2D83E642868C34A001BF5B4 /* TrailingIconLabelStyle.swift in Sources */,
+				E2D83E5E2867F7C6001BF5B4 /* Theme.swift in Sources */,
 				E2D83E352867D971001BF5B4 /* MeetingView.swift in Sources */,
 				E2D83E332867D971001BF5B4 /* ScrumdingerApp.swift in Sources */,
+				E2D83E622867FAC5001BF5B4 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
